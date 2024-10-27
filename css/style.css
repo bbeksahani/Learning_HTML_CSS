@@ -1,0 +1,798 @@
+/* applied for everyone */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for logo  */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 80%;
+}
+
+/* navbar div  */
+
+.code1 {
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}
+
+.nav-list :hover {
+    transform: scale(1.1);
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+
+.nav-list li a:hover {
+    color: rgb(9, 224, 52);
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+
+}
+
+.button :hover {
+    color: rgb(9, 224, 52);
+}
+
+/* for background image */
+
+.background {
+    background: rgb(0, 0, 0, 0.7)url('/images/MergedImages.png');
+    z-index: 999;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstdiv {
+    height: 100vh;
+}
+
+/* main part of homepage */
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    max-width: 60%;
+    margin: auto;
+    margin-top: -122px;
+}
+
+.firstHalf {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* mainpart of homepage image */
+
+
+.secondHalf img {
+    width: 100%;
+    border-radius: 45%;
+    border: 2px solid green;
+    display: block;
+    margin: auto;
+    margin-left: 50px;
+}
+
+/* mainpart of homepage text */
+
+.textbig {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.textsmall {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
+/* for footer section  */
+
+.foot background {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.foot1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.foot li {
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.foot li:hover {
+    color: rgb(9, 224, 52);
+}
+
+
+/* for partnership brand logo  */
+
+
+.product000 {
+    display: flex;
+    margin: 40px;
+    padding-left: 50px;
+    gap: 4%;
+}
+
+/* individual card for brand logo */
+
+.product221 {
+
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px green;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.product221 :hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.product221 img {
+    border-radius: 25px;
+}
+
+
+/* for going up  */
+
+.go-up {
+    margin: auto;
+    padding-left: 95%;
+}
+
+.go-up img {
+    height: 50px;
+}
+
+
+
+
+/* for product page  */
+
+
+.parent {
+    display: flex;
+    transition: 1s;
+    padding: 2%;
+    align-items: center;
+
+}
+
+.card {
+    /* border: 2px solid; */
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: 10px;
+    height: 374px;
+    box-shadow: 1px 1px 1px 1px rgb(8, 62, 20);
+
+}
+
+.card a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.parent :hover {
+    box-shadow: #44AD00;
+    transition: 1s;
+    transform: scale(0.9);
+
+}
+
+.card img {
+    height: 250px;
+    width: 320px;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.name1 {
+    /* background-color: #44AD00; */
+    font-size: 25px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+
+/* for individual products */
+
+
+
+.dis-pro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+
+}
+
+.pro-des {
+    box-sizing: content-box;
+    width: 580px;
+}
+
+.pro-des h2 {
+    text-align: center;
+    text-align: left;
+    margin: 20px;
+}
+
+.pro-img {
+    box-sizing: content-box;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pro-img :hover {
+    box-shadow: 1px 1px 1px 1px #44AD00;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(0.9);
+}
+
+.sh-op {
+    display: flex;
+    justify-content: center;
+    /* background-color: ; */
+    border-radius: 25px;
+}
+
+.sh-op h2 {
+    text-align: center;
+    box-sizing: content-box;
+    width: 200px;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.sh-op :hover {
+    background: #44AD00;
+
+
+}
+
+.samll-img {
+    height: fit-content;
+    padding: 5%;
+}
+
+.samll-img img {
+    height: fit-content;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+/* for research page  */
+
+
+
+
+
+/* * {
+    margin: 0%;
+    padding: 0%;
+} */
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.re-bar {
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    gap: 90px;
+}
+
+.re-bar img {
+    height: 350px;
+    width: 650px;
+    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.reason {
+    margin: 20px;
+    padding: 20px;
+    list-style: lower-roman;
+    color: rgb(8, 8, 8);
+    background-color: rgb(215, 208, 208);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 5%;
+}
+
+hr {
+    color: rgb(10, 135, 31);
+    border: 2px solid;
+}
+
+
+
+
+
+/* for blog page  */
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* for body tag  */
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* for cards */
+
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(5, 92, 23);
+    font-weight: 700px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0px;
+    flex-wrap: wrap;
+
+}
+
+.blog-container :hover {
+    transform: scale(1.01);
+    transition: 1s;
+}
+
+.blog-box {
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgb(9, 224, 52);
+    box-shadow: 1px 1px 1px 1px rgb(8, 62, 20);
+    border-radius: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.blog-img img {
+    height: 350px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.blog-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* for card description */
+
+
+.blog-text .blog-title {
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+}
+
+.blog-text .blog-title:hover {
+    color: rgb(9, 224, 52);
+}
+
+
+.foot1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.foot li {
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.foot li:hover {
+    color: rgb(9, 224, 52);
+}
+
+
+/* while opening card */
+
+
+
+#head1 {
+    padding-left: 30%;
+    text-decoration: underline;
+    font-size: 40px;
+
+}
+
+#img1 {
+    padding-left: 50px;
+}
+
+#p1 {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* making it like word doc  */
+
+
+.class1000 {
+    margin: 5%;
+    margin-left: 25%;
+    border: 10px solid;
+    border-radius: 15px;
+    padding: 5%;
+    height: fit-content;
+    width: 700px;
+}
+
+/* for going up  */
+
+.go-up {
+    margin: auto;
+    padding-left: 95%;
+}
+
+.go-up img {
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+/* for about us */
+
+
+* {
+    margin: 0px;
+}
+
+
+.fontsize {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.teamk {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.member {
+    background-color: #808080;
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+
+}
+
+.img {
+    width: 180px;
+    height: 205px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+
+}
+
+.member:hover {
+    transform: scale(1.1);
+
+}
+
+.feedback {
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-align: center;
+    background-color: rgb(9, 224, 52);
+    margin-left: 85%;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.feedback a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* for portfolio */
+
+
+
+* {
+    margin: 0px;
+}
+
+
+/* for body tag  */
+
+
+.back_1 {
+    background: rgba(0, 0, 0, 0.7) url(/images/MergedImages.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-blend-mode: darken;
+
+
+}
+
+/* for left and right column div  */
+
+
+.all {
+    display: flex;
+}
+
+.leftcolumn {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 35px;
+
+}
+
+.info {
+    color: #19e112;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.info h2 {
+    color: white;
+}
+
+.info li {
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+    color: white;
+}
+
+.rightcolumn {
+    flex: 75%;
+    padding: 20px;
+}
+
+/* for personal photo */
+
+
+.image {
+    width: 240px;
+    height: 225 px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.name {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    color: #1db718;
+}
+
+/* for conect  with me div  */
+
+
+
+.contact {
+    color: #19df12;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+
+}
+
+.font {
+
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.font a {
+    text-decoration: none;
+    color: white;
+}
+
+.font img {
+    height: 30px;
+    border-radius: 25px;
+}
+
+.desc {
+    color: white;
+    text-align: justify;
+}
+
+
+.first-right {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sec-right {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sec-right li {
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+}
+
+.last-right {
+    margin: 5px;
+    padding: 5px;
+}
+
+.list li {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin: 2px;
+    padding: 3px;
+}

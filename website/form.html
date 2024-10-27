@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            text-align: center;
+            border: 1px solid;
+            margin-right:30%;
+            margin-left:30%;
+            padding:20px;
+            text-align: left;
+            background: rgb(0, 0, 0, 0.7)url('/images/MergedImages.png');
+    background-size: cover;
+    background-blend-mode: darken;
+            color:green;
+        }
+        .form input[type=text]{
+            width:100%;
+        }
+        .form textarea{
+            width:100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form name="Form" onsubmit="validateForm()">
+            <h2 style="text-align: center;">Any feedbacks?</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact"><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+            <label for="feedback">Give your feedback here:</label><br>
+            <textarea id="feedback" name="feedback" cols="10" rows="5"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <script type="text/javascript">
+            function validateForm() {
+                var Name = document.forms["Form"]["name"].value;
+                var Email = document.forms["Form"]["email"].value;
+                var Contact = document.forms["Form"]["contact"].value;
+                var Feedback = document.forms["Form"]["feedback"].value;
+
+                if (Name === "" || Email === "" || Contact === "" || Feedback === "") {
+                    alert("Empty fields. Please fill in all the fields");
+                    
+                } else {
+                    alert("Thank you for your feedback");
+                    
+                }
+            }
+        </script>
+    
+    </div>
+</body>
+</html>
